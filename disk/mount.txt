@@ -1,0 +1,13 @@
+#--------------------------------------
+#	mount
+#--------------------------------------
+
+mount	[-t vfstype] [-o options] device dir
+B
+(1)fdisk -l
+(2)mkdir -p /mnt/usbhad1
+(2)mkdir -p /mnt/usbhad2
+(3)mount -t ntfs /dev/sdc1 /mnt/usbhd1
+(4)mount -t vfat /dev/sdc5	/mnt/usbhad2
+(1)mount D
+1

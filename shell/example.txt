@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "you are weclome to user bahs "
+echo "current works directory is $PWD"
+echo "you are $LOGINNAME"
+

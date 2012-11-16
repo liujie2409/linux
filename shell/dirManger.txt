@@ -1,0 +1,21 @@
+#------------------------------------------
+#	目录管理
+#-----------------------------------------
+
+1、创建目录
+	mkdir dirName
+2、删除目录
+	rmdir dirName
+3、显示工作目录
+	pwd
+4、显示目录内容
+	ls
+5、cd改变当前目录
+	cd 或cd ~进入登陆时的主要目录 
+	cd /进入根目录
+	cd ..进入上一级目录
+	cd /home进入home目录
+	cd home进入当前目录下的home
+6、目录重命名
+	mv sourceDirName targDirName
+7、cp sourceDir tarDir

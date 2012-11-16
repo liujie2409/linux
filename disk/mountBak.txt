@@ -1,0 +1,26 @@
+     1	#--------------------------------------
+     2	#	mount
+     3	#--------------------------------------
+     4	
+     5	mount	[-t vfstype] [-o options] device dir
+     6	B
+     7	(1)fdisk -l
+     8	(2)mkdir -p /mnt/usbhad1
+     9	(2)mkdir -p /mnt/usbhad2
+    10	(3)mount -t ntfs /dev/sdc1 /mnt/usbhd1
+    11	(4)mount -t vfat /dev/sdc5	/mnt/usbhad2
+    12	(1)mount D
+    13	1
+     1	#--------------------------------------
+     2	#	mount
+     3	#--------------------------------------
+     4	
+     5	mount	[-t vfstype] [-o options] device dir
+     6	B
+     7	(1)fdisk -l
+     8	(2)mkdir -p /mnt/usbhad1
+     9	(2)mkdir -p /mnt/usbhad2
+    10	(3)mount -t ntfs /dev/sdc1 /mnt/usbhd1
+    11	(4)mount -t vfat /dev/sdc5	/mnt/usbhad2
+    12	(1)mount D
+    13	1

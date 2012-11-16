@@ -1,0 +1,5 @@
+echo $hello
+echo ${Hello}_world
+echo ${a[0]}
+echo ${a[8]}
+

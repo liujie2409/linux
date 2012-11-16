@@ -1,0 +1,15 @@
+#---------------------------------------------
+#	文件管理
+#--------------------------------------------
+
+1、more fileName 显示文件，一次显示一屏幕,按回车键显示下一瓶.
+2、less fileName 显示文件，同上
+3、cat fileName 一次显示全部文件内容
+4、head fileName 显示文件的前10行 
+	head -n fileName
+5、tail fileName 显示文件的后10行
+	tail -n fileName显示文件的后n行
+6、nl	fileName 以编号的形式显示文件内容，忽略空格
+7、mv 移动文件
+8、find 查找文件
+9、grep查找文件内容

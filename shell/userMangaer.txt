@@ -1,0 +1,14 @@
+#-------------------------------------------
+#	用户管理
+#-------------------------------------------
+1、新建用户
+	useradd userName
+	创建后，在/home目录下，新建一个userName的文件夹
+2、添加密码
+	passwd	userName
+3、删除用户
+	userdel	userName
+4、新建群组
+	groupadd groupName
+ 5、删除群组
+	groupdel groupName
