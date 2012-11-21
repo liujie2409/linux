@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #test case
 
 echo "please select a option "
@@ -19,5 +19,4 @@ D)
 	;;
 *)	
 	echo "you can input A C D "
-ecas
-
+esac

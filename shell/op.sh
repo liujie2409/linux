@@ -17,5 +17,5 @@ case $op in
 	echo "you are selected backup "
   	;;
 *)      echo "you not selecte"
- easc`:wq
+esac 
 
