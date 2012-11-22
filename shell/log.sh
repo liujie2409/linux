@@ -4,23 +4,20 @@
 #-------------------------------------------------
 
 LOG_DIR=/var/log
-ROOT_UID=0;#SUID=0 
+ROOT_UID=0
+SUID=0 
 LINES=50
 E_XCD=66
 E_NOTROOT=67
 
 #--一定要用跟用户运行
-IF [ "$SUID" -ne "$ROOT_UID" ]
+if [ "$SUID" -ne "$ROOT_UID" ] ;
 	then
 	echo "must root run "
 	exit $E_NOTROOT
 fi
 
-if [ -n "$1" ]
-	then lines=$1
-else
 	lines=$LINES
-fi
 
 E_WRONGARGS=65
 
@@ -32,7 +29,7 @@ esac
 
 cd $LOG_DIR
 
-if [ 'pwd' != "$LOG_DIR" ]
+if [ 'pwd' != "$LOG_DIR" ];
 	then 
 		echo "cannot change to #LOG_DIR"
 		exit $E_ECD

@@ -5,6 +5,9 @@ echo "1 copy"
 echo "2 delete"
 echo "3 backup"
 
+echo "4:exit"
+while [ true ]
+do
 read op
 case $op in
  C)
@@ -15,7 +18,12 @@ case $op in
 	;;
  b)
 	echo "you are selected backup "
-  	;;
-*)      echo "you not selecte"
-esac 
+	;;
+ 0)	
+	echo "you will exit system "
+	exit;;
 
+*)      echo "you not selecte"
+	;;
+esac 
+done

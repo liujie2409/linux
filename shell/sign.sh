@@ -33,6 +33,5 @@ elif	test\"$fpassword"!="$password"
 else
 	echo "您的记录"
 	cat -b /home/user/chek.dat |grep $name
-fill;;
+fi;
 )esac
-T
