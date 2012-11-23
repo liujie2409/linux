@@ -10,3 +10,5 @@ du
 echo "current disk info is :"
 fdisk -l 
 
+echo "this program end ,good bye "
+
