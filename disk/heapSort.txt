@@ -1,0 +1,39 @@
+堆排序算法
+1:堆排序定义
+   R=[r1r2r3....rn],满足
+    ki>=2ki+1 并且ki>=2ki+2
+   (1)构造一个大项堆
+   (2)r1<--->rn兑换
+   (2)对r1---rn-1重新构造成一个大项堆,进行r1<--->rn-2进行兑换
+2: swap(int []a,int x,int y);//交换两个数
+  
+   int biggerIndex=2*k+1;//左节点
+   if<biggerIndex<lastIndex){
+
+	}2: swap(int []a,int x,int y);//交换两个数
+  
+   int biggerIndex=2*k+1;//左节点
+   if<biggerIndex<lastIndex){
+		//说明有右节点，
+       if(data[biggerIndex)<data[biggerIndex+1]){
+
+			
+		biggerIndex++;
+		}
+
+
+							1	
+					2				3
+	
+				4		5		6		7
+
+
+		    8     9 10		11 12	13	14	15
+
+对于上图: 堆应满足的条件:
+			父节点<小于子节点
+           跟节点最小
+ 所有小项堆
+	
+
+
